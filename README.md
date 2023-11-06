@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Text Counter Application
+
+This repository contains a simple React application that allows users to input text and perform word and character count operations.
 
 ## Getting Started
 
-First, run the development server:
+To use this application, follow these steps:
+
+Clone the Repository:
+
+bash
+Copy code
+
+```bash
+git clone <repository-url>
+cd <repository-folder>
+```
+
+Install Dependencies:
+
+```bash
+npm install
+```
+
+Run the Application:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the development server, and you can view the application in your browser at http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How to Use
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Input Text:
 
-## Learn More
+Enter your text in the provided textarea. The application allows you to input any text you want to analyze.
 
-To learn more about Next.js, take a look at the following resources:
+### Count Words:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Click the "Word" button to count the number of words in the entered text. The application will display a modal with the word count.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Count Characters:
 
-## Deploy on Vercel
+Click the "Character" button to count the number of characters in the entered text. The application will display a modal with the character count.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Clear Text:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Click the "Clear" button to clear the input textarea and start fresh.
+
+### Technologies Used
+
+React: The application is built using React, a popular JavaScript library for building user interfaces.
+
+NextUI: NextUI is used for UI components, including buttons, modals, and textareas, providing a clean and responsive user interface.
+
+Contributing
+Contributions are welcome! If you find any issues or want to enhance the functionality of this application, feel free to create a pull request or open an issue.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
